@@ -1,0 +1,7 @@
+{
+  "name": "monAppli",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

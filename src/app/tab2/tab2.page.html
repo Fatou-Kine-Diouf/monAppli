@@ -1,0 +1,171 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Cours HTML</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="warning">
+     <ion-title>présentation HTML</ion-title>
+      <p>HTML signifie Hyper Text Markup Language
+          HTML est le langage de balisage standard pour créer des pages Web
+          HTML décrit la structure d'une page Web
+          HTML se compose d'une série d'éléments
+          Les éléments HTML indiquent au navigateur comment afficher le contenu
+          Les éléments HTML étiquettent des éléments de contenu tels que « ceci est un titre », « ceci est un paragraphe
+          », « ceci est un lien », etc.</p>
+          <ion-accordion-group>
+          <ion-accordion value="first">
+            <ion-item slot="header" color="dark">
+              <ion-label>Document HTML</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              <p>Un document HTML est une suite d'éléments utilisés pour encadrer différentes parties du contenu afin de les
+                faire apparaître ou se comporter d'une certaine façon. Les balises autour du contenu permettent de transformer
+                une image ou un texte pour obtenir un lien vers une autre page, de créer des titres, etc.</p>
+              <ion-img
+                src="data:image/jpeg;base64,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"></ion-img>
+            </div>
+          </ion-accordion>
+      
+          <ion-accordion value="second">
+            <ion-item slot="header" color="MEDIUM">
+              <ion-label>Les balises de html</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              <p>Les balises HTML sont les éléments de base du codage HTML. Elles sont utilisées pour mettre en forme un
+                texte, structurer et hiérarchiser le contenu d'une page. Les balises indiquent également au navigateur comment
+                afficher la page en question. Pour l'internaute, elles sont invisibles sauf s'il affiche le code source.</p>
+              <h3>TITLE</h3>
+              <p>La balise title est une balise du codage HTML qui permet de donner un titre à une page web. Ce titre se
+                retrouve dans la barre de titre du navigateur mais également dans les pages de résultats des moteurs de
+                recherche (SERP).</p>
+              <h3>HEADER</h3>
+              <ion-img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-5sYHSBD4FB9X8ImjmYcjwEt4iiHfFUyrOQ&usqp=CAU"></ion-img>
+              <p>L'élément HTML header représente du contenu introductif, généralement un groupe de contenu introductif ou de
+                contenu aidant à la navigation. Il peut contenir des éléments de titre, mais aussi d'autres éléments tels
+                qu'un logo, un formulaire de recherche, le nom d'auteur, etc.</p>
+              <h3>body</h3>
+              <p>La balise "body" est une balise HTML permettant d'indiquer au navigateur où commence votre corps de page et
+                où il se termine.IL représente le contenu principal du document HTML. </p>
+            </div>
+          </ion-accordion>
+        <ion-accordion value="third">
+            <ion-item slot="header" color="dark">
+              <ion-label>Les paragraphes en html</ion-label>
+            </ion-item>
+            <div class="ion-padding" slot="content">
+              L’élément HTML p représente un paragraphe. Un paragraphe est un ensemble de texte qui peut occuper autant de
+              lignes qu’on le souhaite dans un document.
+              L’élément p est généralement défini comme un élément de type bloc par les navigateurs, ce qui implique qu’il
+              occupera toute la largeur disponible dans son élément conteneur.
+              <ion-img src="https://www.pierre-giraud.com/wp-content/uploads/2019/05/espace-retour-ligne-code-html.png"></ion-img>
+            </div>
+          </ion-accordion>
+      <ion-accordion value="fouth">
+            <ion-item slot="header" color="MEDIUM">
+              <ion-label>Les Attributs en html</ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+              <p>Tous les éléments HTML peuvent avoir des attributs
+                Les attributs fournissent des informations supplémentaires sur les éléments
+                Les attributs sont toujours spécifiés dans la balise de début
+                <!-- Les attributs se présentent généralement sous forme de paires nom/valeur telles que : nom="valeur"<br>
+                 éxemple d'attributs:<h5>L' href</h5> attribut spécifie l'URL de la page vers laquelle le lien mène,
+                  <h5> L' src</h5> attribut précise le chemin d'accès à l'image à afficher,
+                  <h5> L' style</h5> attribut est utilisé pour ajouter des styles à un élément, tels que la couleur, la police, la taille, etc.
+                  les attributs<h5> width et height,</h5>  qui spécifient la largeur et la hauteur de l'image (en pixels)
+                  L'attribut obligatoire<h5>alt</h5> de la img balise spécifie un texte alternatif pour une image, si l'image, pour une raison quelconque, ne peut pas être affichée. Cela peut être dû à une connexion lente, ou à une erreur dans l' srcattribut, ou encore si l'utilisateur utilise un lecteur d'écran.  -->
+                <br><br>
+                éxemple de quelques attributs: <br><br>
+                l'attribut href:attribut spécifie l'URL de la page vers laquelle le lien mène,<br><br>
+                l'attribut src:attribut précise le chemin d'accès à l'image à afficher,<br><br>
+                l'attrubut style:attribut est utilisé pour ajouter des styles à un élément, tels que la couleur, la police, la
+                taille,<br><br>
+                l'attribut alt:qui est obligatoirede la img balise spécifie un texte alternatif pour une image, si l'image,
+                pour une raison quelconque, ne peut pas être affichée. Cela peut être dû à une connexion lente, ou à une
+                erreur dans l' srcattribut, ou encore si l'utilisateur utilise un lecteur d'écran.
+              </p>
+             <ion-img
+                src="https://www.pierre-giraud.com/wp-content/uploads/2019/05/html-selecteur-attribut-commence-valeur.png"></ion-img>
+            </div>
+            </ion-accordion>
+            <ion-accordion value="fifth">
+              <ion-item slot="header" color="dark">
+                <label>les jeux de caractéres</label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                <p>
+                  Un jeu de caractères (encodage de caractères) est une façon de représenter chaque caractère
+                 (et donc un texte) dans cette base binaire.
+                Pour afficher une page HTML correctement, un navigateur Web doit savoir le jeu de caractères
+                à utiliser. <br>
+            Les jeux de caractères usuelles : <br><br>
+      
+       
+       ASCII a été la première norme d’encodage de caractères. Il définit 128 différents
+       caractères alphanumériques qui pourraient être utilisés sur Internet: les chiffres (0-9), les
+       lettres anglaises (AZ) et certains caractères spéciaux. <br>
+       ANSI (Windows 1252) était le jeu de caractères d'origine de Windows. Il supporte 256 codes
+       de caractères différents. <br>
+       ISO-8859-1 est le jeu de caractères par défaut pour HTML 4. Il prend en charge également
+       256 codes de caractères différents. <br>
+       UTF-8 (Unicode) couvre presque tous les caractères et les symboles dans le monde.
+       L’encodage de caractère par défaut pour HTML5 est UTF-8.
+          </p>
+            </div>
+            </ion-accordion>
+            <ion-accordion value="sixth">
+              <ion-item slot="header" color="MEDIUM">
+                <label>Les Tableaux et listes en html</label>
+                </ion-item> 
+                <div class="ion-padding" slot="content">
+                  <h4>Les tableaux</h4>
+                  <p> Une table HTML est définie par la balise 'table'. <br><br>
+                    Chaque ligne de la table est définie par la balise 'tr'. <br><br>
+                   Chaque en-tête est définie avec la balise 'th' et est par défaut en gras et est centré. <br><br> 
+                   Chaque cellule est définie avec la balise 'td'. <br><br>
+                   éxemple: <br><br>
+                   </p>
+                   <ion-img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/defining_html_tables-html_tables.PNG"></ion-img>
+                   <ion-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2nAYkMDs2rWoSbgNcNGpuF1TXq3mlQkCnC0zYdJP7hle63Nz988nh0cHJd4WO6KmIkuY&usqp=CAU"></ion-img>
+                  <h4>Les listes</h4>
+                  <p> Il existe 3 types de listes : <br><br>
+                     les listes non numérotées (élément  UL) <br><br>
+                    les listes numérotées (élément  OL) <br><br>
+                    les listes descriptives (élément  DL) <br><br>
+                    éxemple de listes non numérotées,nomérotées et déscriptives <br><br>
+                  </p>
+                  <ion-img src="https://blog.hubspot.fr/hubfs/media/ListeapucesHTML.png"></ion-img>
+                  <ion-img src="https://www.codeur.com/tuto/wp-content/uploads/2020/12/exemple-liste-ordonnee.jpg"></ion-img>
+                  <ion-img src="data:image/jpeg;base64,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"></ion-img>
+              </div>
+            </ion-accordion>
+            <ion-accordion value="seventh">
+              <ion-item slot="header" color="dark">
+                <label>Commentaires HTML</label>
+                </ion-item> 
+                <div class="ion-padding" slot="content"> 
+                  <p>Les commentaires HTML ne sont pas affichés dans le navigateur, mais ils peuvent vous aider à documenter votre code source HTML.
+                    Vous pouvez ajouter des commentaires à votre source HTML en utilisant la syntaxe suivante :
+                 </p>
+                 <ion-img src="https://www.pierre-giraud.com/wp-content/uploads/2019/05/commentaire-html.png"></ion-img>
+                </div>
+              </ion-accordion>
+              <ion-accordion value="eighth">
+                <ion-item slot="header" color="MEDIUM">
+                  <label>Formulaires HTML</label>
+                  </ion-item> 
+                  <div class="ion-padding" slot="content"> 
+                    <p>
+                      Un formulaire HTML est utilisé pour collecter les entrées des utilisateurs. Les entrées de l'utilisateur sont le plus souvent envoyées à un serveur pour traitement.
+                      L' form élément est un conteneur pour différents types d'éléments de saisie, tels que : des champs de texte, des cases à cocher, des boutons radio, des boutons de soumission, etc.
+                  </p>
+                 <ion-img src="https://www.codeur.com/tuto/wp-content/uploads/2021/04/maquette-formulaire-html-1024x728.png.webp"></ion-img>
+                 <ion-img src="https://www.pierre-giraud.com/wp-content/uploads/2019/05/html-input-label.png"></ion-img> 
+                  </div>
+                </ion-accordion>
+        </ion-accordion-group>
+      
+      
+      </ion-content>

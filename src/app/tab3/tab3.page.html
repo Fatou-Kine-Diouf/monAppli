@@ -1,0 +1,202 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Cours CSS
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="warning">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 3</ion-title>
+    </ion-toolbar>
+  </ion-header>
+   <ion-content>
+    
+        <ion-title>Qu'est ce qu'une feuille de style</ion-title>
+      <p>CSS est l’acronyme de Cascading Style Sheets et signifie Feuilles de Styles en Cascade.
+        Il décrit comment les éléments HTML doivent être affichés à l'écran, sur du papier ou
+        dans d'autres médias .
+        L'utilisation de feuilles de style permettant de séparer la forme du fond présente de
+        nombreux avantages :
+        simplifier la conception et la maintenance des sites.
+        améliorer l'accessibilité des sites de façon sensible, sans altérer du tout la qualité visuelle
+        des documents, bien au contraire.</p>  
+        <ion-accordion-group>
+       <ion-accordion value="first">
+      <ion-item slot="header" color="blue">
+        <ion-label>Intégration d'une feuille de style</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <p>Il y a trois méthodes principales pour placer une feuille de style.
+          En ligne : en utilisant l'attribut de style dans les éléments HTML
+          En interne : en utilisant un élément 'style' dans la section 'head'
+          En externe : en utilisant un fichier CSS externe
+          La première méthode est déjà traitée dans la section précédemment.
+          La méthode externe est la plus courante pour ajouter du CSS mais aussi pour garder les
+          styles dans les fichiers CSS séparés.
+          Cependant pour des raisons pratiques, les styles en ligne et les styles en interne seront plus
+          utilisés dans ce cours. <br><br>
+          </p>
+          <h3>éxemple d'intégration du CSS dans une page HTML:</h3>
+        <ion-img src="https://www.cssdebutant.com/include/images/css-twitter.jpg"></ion-img>
+
+                  
+      </div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="primary">
+        <ion-label>couleur css</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <ion-button>Default</ion-button>
+        <ion-button color="primary">Primary</ion-button>
+        <ion-button color="secondary">Secondary</ion-button>
+        <ion-button color="tertiary">Tertiary</ion-button>
+        <ion-button color="success">Success</ion-button>
+        <ion-button color="warning">Warning</ion-button>
+        <ion-button color="danger">Danger</ion-button>
+        <ion-button color="light">Light</ion-button>
+        <ion-button color="medium">Medium</ion-button>
+        <ion-button color="dark">Dark</ion-button>
+        <ion-button color="violet">violet</ion-button>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="success">
+        <ion-label>l'arriére plans CSS</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <p>Les propriétés d'arrière-plan CSS sont utilisées pour ajouter des effets d'arrière-plan pour les éléments.
+
+          Dans ces chapitres, vous découvrirez les propriétés d'arrière-plan CSS suivantes : <br><br>
+
+          background-color <br>
+          background-image <br>
+          background-repeat <br>
+          background-attachment <br>
+          background-position <br>
+          background(propriété abrégée) <br><br>
+          éxemple: <br>
+        </p>
+        <ion-img
+          src="https://www.pierre-giraud.com/wp-content/uploads/2019/05/css-background-size-plusieurs-images.png"></ion-img>
+      </div>
+    </ion-accordion>
+    <ion-accordion value="fouth">
+      <ion-item slot="header" color="danger">
+        <label>Polices CSS</label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        <p>
+          La sélection des polices est importante
+          Le choix de la bonne police a un impact énorme sur la façon dont les lecteurs perçoivent un site Web.
+
+          La bonne police peut créer une identité forte pour votre marque.
+
+          Il est important d’utiliser une police facile à lire. La police ajoute de la valeur à votre texte. Il est
+          également important de choisir
+          la bonne couleur et la bonne taille de texte pour la police. <br><br>
+
+          Familles de polices génériques <br><br>
+          En CSS, il existe cinq familles de polices génériques : <br>
+
+          Les polices Serif ont un petit trait sur les bords de chaque lettre. Ils créent un sentiment de formalité et
+          d'élégance. <br><br>
+          Les polices sans empattement ont des lignes épurées (pas de petits traits attachés). Ils créent un look
+          moderne et minimaliste. <br><br>
+          Polices monospaces - ici toutes les lettres ont la même largeur fixe. Ils créent un look mécanique. <br>
+          Les polices cursives imitent l’écriture humaine. <br><br>
+          Les polices Fantasy sont des polices décoratives/ludiques. <br><br>
+          éxemple:
+        </p>
+        <ion-img src="data:image/png;base64,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"></ion-img>
+      </div>
+    </ion-accordion>
+  <ion-accordion value="fifth">
+    <ion-item slot="header" color="light">
+       <label>Hauteur,largeur,largeur maximale CSS</label>
+    </ion-item>
+    <div class="ion-padding" slot="content">
+      <p>
+        Le CSS height et width les propriétés sont utilisés pour définir la hauteur et la largeur d'un élément. <br>
+         La max-width propriété CSS est utilisée pour définir la largeur maximale d'un élément. <br>
+      </p>
+      <h4>CSS Définition de la hauteur et de la largeur</h4>
+      <p>Les propriétés heightet widthsont utilisées pour définir la hauteur et la largeur d'un élément.
+      Les propriétés de hauteur et de largeur n'incluent pas le remplissage, les bordures ou les marges. Il définit la hauteur/largeur de la zone à l'intérieur du remplissage, de la bordure et de la marge de l'élément.
+    </p>
+       <h4>Valeurs CSS de hauteur et de largeur</h4>
+       <p>
+        Les propriétés heightet width peuvent avoir les valeurs suivantes : <br><br>
+
+auto- C'est la valeur par défaut. Le navigateur calcule la hauteur et la largeur <br><br>
+length- Définit la hauteur/largeur en px, cm, etc. <br><br>
+%- Définit la hauteur/largeur en pourcentage du bloc contenant <br><br>
+initial- Définit la hauteur/largeur à sa valeur par défaut <br><br>
+inherit- La hauteur/largeur sera héritée de sa valeur parent <br><br>
+</p>
+</div>
+  </ion-accordion>
+  <ion-accordion value="sixth">
+    <ion-item slot="header" color="Medium">
+      <label>Bordures CSS</label>
+   </ion-item>
+   <div class="ion-padding" slot="content">
+    <p>Les propriétés de bordure CSS vous permettent de spécifier le style, la largeur et la couleur de la bordure d'un élément. <br><br>
+      éxemple de bordure: <br><br>
+    </p>
+<ion-img src="https://www.codeur.com/tuto/wp-content/uploads/2020/11/html-avec-css.jpg.webp"></ion-img> <br>
+   <p>
+    La border-stylepropriété spécifie le type de bordure à afficher.
+
+Les valeurs suivantes sont autorisées :
+
+dotted- Définit une bordure en pointillés
+dashed- Définit une bordure en pointillés
+solid- Définit une bordure solide
+double- Définit une double bordure
+groove- Définit une bordure rainurée 3D. L'effet dépend de la valeur de la couleur de la bordure
+ridge- Définit une bordure striée 3D. L'effet dépend de la valeur de la couleur de la bordure
+inset- Définit une bordure incrustée 3D. L'effet dépend de la valeur de la couleur de la bordure
+outset- Définit une bordure initiale 3D. L'effet dépend de la valeur de la couleur de la bordure
+none- Ne définit aucune frontière
+hidden- Définit une bordure cachée
+La border-stylepropriété peut avoir de une à quatre valeurs (pour la bordure supérieure, la bordure droite, la bordure inférieure et la bordure gauche).
+   </p>
+   </div>
+  </ion-accordion>
+  <ion-accordion value="seventh">
+    <ion-item slot="header" color="dark">
+       <label>Icônes CSS</label>
+    </ion-item>
+    <div class=ion-padding slot="content"> 
+      <p>
+        Des icônes peuvent facilement être ajoutées à votre page HTML en utilisant une bibliothèque d'icônes.
+        Le moyen le plus simple d'ajouter une icône à votre page HTML consiste à utiliser une bibliothèque d'icônes, telle que Font Awesome.
+
+        Ajoutez le nom de la classe d'icônes spécifiée à n'importe quel élément HTML en ligne (comme i ou span).
+        
+        Toutes les icônes des bibliothèques d'icônes ci-dessous sont des vecteurs évolutifs qui peuvent être personnalisés avec CSS (taille, couleur, ombre, etc.)
+   </p>
+   <ion-img src="data:image/png;base64,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">
+  </ion-img>
+    </div>
+  </ion-accordion>
+  <ion-accordion value="eighth">
+    <ion-item slot="header" color="secondary">
+       <label>Tableaux CSS</label>
+    </ion-item>
+    <div class=ion-padding slot="content"> 
+      <p>CSS Table (ou module des tableaux CSS) est un module CSS qui définit comment disposer les données de tableaux.
+        Pour spécifier les bordures du tableau en CSS, utilisez la borderpropriété.
+
+      L'exemple ci-dessous spécifie une bordure pleine pour les éléments table, th et td :
+      </p>
+     <ion-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphF36AEsZ-HS1cDxePo_mu8d6XsQxPx1MFA&usqp=CAU"></ion-img> 
+     <ion-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIewlWqgsylyOxsvdNgt98jWd8xksJkFOOg&usqp=CAU"></ion-img>
+    </div>
+  </ion-accordion>
+  </ion-accordion-group>
+</ion-content>
